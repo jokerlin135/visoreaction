@@ -3,7 +3,6 @@ import { ArrowLeft, Camera, Image } from "lucide-react";
 import { Card, CardContent } from "./ui/card";
 import { Button } from "./ui/button";
 import { AdMobBanner } from "./AdMobBanner";
-import exampleImage from 'figma:asset/78b8594770229f4461b7804c8c308cfbb4b2ec88.png';
 
 interface FigurineScreenProps {
   onBackClick?: () => void;
@@ -12,7 +11,7 @@ interface FigurineScreenProps {
 const figurineImages = [
   "https://images.unsplash.com/photo-1745483537091-1dea84b498ec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmaWd1cmluZSUyMHRveSUyMGNoYXJhY3RlcnxlbnwxfHx8fDE3NTk3NjU3MDh8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
   "https://images.unsplash.com/photo-1732613942657-61684c51eb55?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHwzZCUyMGNoYXJhY3RlciUyMG1vZGVsfGVufDF8fHx8MTc1OTc2NTcxMnww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-  exampleImage,
+  "https://images.unsplash.com/photo-1551969014-7d2c4cddf0b6?w=1080&q=80",
   "https://images.unsplash.com/photo-1745483537091-1dea84b498ec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmaWd1cmluZSUyMHRveSUyMGNoYXJhY3RlcnxlbnwxfHx8fDE3NTk3NjU3MDh8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
 ];
 

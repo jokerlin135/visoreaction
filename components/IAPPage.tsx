@@ -46,9 +46,8 @@ const plans = [
 export function IAPPage({ onClose, onPurchase }: IAPPageProps) {
   return (
     <div 
-      className="min-h-screen w-full bg-cover bg-center bg-no-repeat relative"
+      className="min-h-screen w-full bg-gradient-to-br from-purple-600 via-blue-600 to-purple-700 relative"
       style={{ 
-        backgroundImage: `url(figma:asset/475675ea63a9a173d08f107d018d45a99f0da608.png)`,
         height: '100vh',
         width: '100vw'
       }}

@@ -2,7 +2,6 @@ import { ArrowLeft, Plus, Play } from "lucide-react";
 import { Button } from "./ui/button";
 import { AdMobBanner } from "./AdMobBanner";
 import { useState } from "react";
-import exampleImage from 'figma:asset/d25ae6c55a303aa627b9a1a731be33be534b3f5e.png';
 
 interface FaceSwapScreenProps {
   onBackClick?: () => void;
@@ -14,7 +13,7 @@ export function FaceSwapScreen({ onBackClick, title = "Ghostface" }: FaceSwapScr
   
   // Mock carousel images - in real app, these would come from props or API
   const carouselImages = [
-    exampleImage,
+    "https://images.unsplash.com/photo-1551969014-7d2c4cddf0b6?w=1080&q=80",
     "https://images.unsplash.com/photo-1608234773387-2cc931668c37?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx3b21hbiUyMHBob25lJTIwY2FsbCUyMGhvcnJvciUyMG1vdmllJTIwc2NlbmV8ZW58MXx8fHwxNzU5NzY0MzEyfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
   ];
 
