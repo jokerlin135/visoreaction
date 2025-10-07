@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Photo Enhance App",
-    "slug": "photo-enhance-app",
+    "slug": "visoaiphoto",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
