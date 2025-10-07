@@ -9,3 +9,11 @@ ios/Pods/
 .env
 *.zip
 .DS_Store
+
+# Vite
+dist-ssr
+*.local
+
+# IDE
+.vscode/
+.idea/
